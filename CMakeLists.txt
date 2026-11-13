@@ -23,7 +23,7 @@ if(APPLE)
 endif()
 
 juce_add_plugin(WorshipVoiceFX
-    COMPANY_NAME "Diego Audio"
+    COMPANY_NAME "DiegoAudio"
     PRODUCT_NAME "Worship Voice FX"
     PLUGIN_MANUFACTURER_CODE Dgau
     PLUGIN_CODE Wvfx
