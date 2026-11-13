@@ -33,11 +33,11 @@ juce_add_plugin(WorshipVoiceFX
     NEEDS_MIDI_OUTPUT FALSE
     COPY_PLUGIN_AFTER_BUILD ${COPY_AFTER})
 
-target_sources(WorshipVoiceFX PRIVATE
-    Source/PluginProcessor.cpp
-    Source/PluginProcessor.h
-    Source/PluginEditor.cpp
-    Source/PluginEditor.h)
+  target_sources(WorshipVoiceFX PRIVATE
+      PluginProcessor.cpp
+      PluginProcessor.h
+      PluginEditor.cpp
+      PluginEditor.h)
 
 target_compile_definitions(WorshipVoiceFX PUBLIC
     JUCE_WEB_BROWSER=0
